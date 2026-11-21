@@ -1,6 +1,6 @@
- <div align="center">
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:080817,35:24144A,70:44308A,100:00D4AA&text=AI%20RESUME%20ANALYZER&fontSize=43&fontColor=FFFFFF&fontAlignY=38&desc=INTELLIGENT%20RESUME%20ANALYSIS%20%26%20JOB%20MATCHING&descAlignY=60&descSize=15&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:080817,35:24144A,70:44308A,100:00D4AA&text=AI%20RESUME%20ANALYZER&fontSize=43&fontColor=FFFFFF&fontAlignY=38&desc=INTELLIGENT%20RESUME%20ANALYSIS%20AND%20JOB%20MATCHING&descAlignY=60&descSize=15&animation=fadeIn" width="100%" />
 
 # AI RESUME ANALYZER
 
@@ -678,4 +678,4 @@ Made with ❤️, Python and Streamlit.
 
 *An independent academic project.*
 
-</div>
+</div>               look myy readme file me screenshot show nahi ho raha
