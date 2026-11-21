@@ -1,0 +1,51 @@
+"""Rule-based beginner roadmap for skills absent from the resume."""
+ROADMAP = {
+    "Python": "Practise core syntax, functions, data structures and build a small CLI project.",
+    "SQL": "Learn SELECT, JOIN, GROUP BY and window functions; analyse a small dataset.",
+    "Excel": "Practise formulas, lookup functions, pivot tables and charts.",
+    "Pandas": "Load, clean, transform and summarize a CSV dataset.",
+    "Power BI": "Build a dashboard with a data model, measures and interactive filters.",
+    "scikit-learn": "Train and evaluate a baseline classification or regression model.",
+    "FastAPI": "Build and test a small REST API with request validation.",
+    "Docker": "Containerize a Python application and practise image/build/run workflows.",
+    "Machine Learning": "Study supervised learning, train/test splits, overfitting and evaluation metrics.",
+    "Deep Learning": "Learn neural-network fundamentals and train a small model.",
+    "LLM": "Study tokens, prompting, context windows and evaluation of language-model outputs.",
+    "RAG": "Build a small retrieval pipeline over trusted documents and evaluate retrieval quality.",
+    "APIs": "Practise HTTP methods, status codes, JSON and API error handling.",
+    "NLP": "Learn tokenization, text normalization, vectorization and text classification.",
+    "Transformers": "Understand attention and transformer architecture; fine-tune or use a small pretrained model.",
+    "Hugging Face": "Explore the Transformers pipeline and model/dataset documentation.",
+    "OpenCV": "Practise image loading, resizing, color spaces and basic image processing.",
+    "CNN": "Train a small convolutional network and inspect precision/recall.",
+    "YOLO": "Learn object-detection labels, inference and evaluation metrics.",
+    "Git": "Practise branches, commits, merges and pull requests.",
+    "Linux": "Practise shell navigation, permissions, processes and scripting.",
+    "AWS": "Learn core cloud concepts and deploy a small non-sensitive demo.",
+    "PostgreSQL": "Practise relational schema design, joins, constraints and indexes.",
+    "NumPy": "Practise arrays, vectorized operations and broadcasting.",
+    "Matplotlib": "Create clear plots with labelled axes and legends.",
+    "Plotly": "Build interactive charts with hover details and filters.",
+    "Java": "Practise object-oriented programming, collections and exception handling.",
+    "C++": "Practise memory basics, STL containers and algorithmic problem solving.",
+    "JavaScript": "Learn DOM, asynchronous code and fetch with a small frontend.",
+    "HTML": "Build semantic, accessible page structure.",
+    "CSS": "Practise responsive layouts, flexbox and grid.",
+    "React": "Build reusable components and manage state in a small application.",
+    "Node.js": "Build a small backend service and handle asynchronous requests.",
+    "MongoDB": "Practise document modelling, indexes and safe query patterns.",
+    "Redis": "Learn caching, TTLs and common data structures.",
+    "Kubernetes": "Study pods, deployments, services and configuration basics.",
+    "MLflow": "Track experiments, parameters, metrics and model artifacts.",
+    "Hugging Face": "Use a pretrained NLP pipeline and document its limitations.",
+    "spaCy": "Practise tokenization, named entities and phrase matching.",
+    "Sentence Transformers": "Generate embeddings and compare semantic similarity.",
+    "CI/CD": "Create a pipeline that runs linting and tests on each push.",
+    "Power BI": "Build a dashboard and explain the metrics it displays."
+}
+
+
+def build_learning_roadmap(missing_skills):
+    return [{"week": f"Week {index}", "skill": skill,
+             "action": ROADMAP.get(skill, f"Study {skill} fundamentals, complete a guided exercise, and build a small demonstrable project.")}
+            for index, skill in enumerate(missing_skills, start=1)]

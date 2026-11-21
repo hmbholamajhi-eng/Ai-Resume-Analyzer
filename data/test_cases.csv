@@ -1,0 +1,8 @@
+case_id,scenario,expected
+TC-01,Valid PDF,Extract text from every page
+TC-02,Valid DOCX,Extract paragraphs and tables
+TC-03,Unsupported extension,Reject with clear message
+TC-04,File larger than 5 MB,Reject upload
+TC-05,Resume contains Python and SQL,Detect both skills
+TC-06,Role selection,Show found and missing skills
+TC-07,Report download,Generate JSON report and CSV ranking

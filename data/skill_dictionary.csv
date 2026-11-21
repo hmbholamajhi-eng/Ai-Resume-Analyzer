@@ -1,0 +1,50 @@
+skill,category,aliases
+Python,Programming,python3
+Java,Programming,
+C++,Programming,c plus plus
+C#,Programming,c sharp
+JavaScript,Programming,js
+TypeScript,Programming,
+HTML,Web,html5
+CSS,Web,cascading style sheets
+React,Web,react.js
+Node.js,Web,nodejs|node js
+SQL,Databases,structured query language
+PostgreSQL,Databases,postgres
+MongoDB,Databases,mongo
+Redis,Databases,
+Excel,Analytics,microsoft excel
+Pandas,Analytics,
+NumPy,Analytics,numpy
+Power BI,Analytics,powerbi
+Statistics,Analytics,statistical analysis
+Data Visualization,Analytics,data viz
+Machine Learning,Machine Learning,ml
+scikit-learn,Machine Learning,sklearn|scikit learn
+Deep Learning,Machine Learning,dl
+CNN,Machine Learning,convolutional neural network|convolutional neural networks
+NLP,AI,natural language processing
+LLM,AI,large language model|large language models
+RAG,AI,retrieval augmented generation
+Transformers,AI,transformer architecture
+Hugging Face,AI,huggingface
+spaCy,AI,spacy
+Sentence Transformers,AI,sentence-transformers
+OpenCV,Computer Vision,opencv-python
+YOLO,Computer Vision,you only look once
+FastAPI,Frameworks,
+Flask,Frameworks,
+Django,Frameworks,
+Docker,DevOps,
+Kubernetes,DevOps,k8s
+Git,Tools,git version control
+GitHub,Tools,
+Linux,Tools,
+AWS,Cloud,amazon web services
+Azure,Cloud,microsoft azure
+GCP,Cloud,google cloud platform
+MLflow,Tools,
+APIs,Tools,api|rest api|rest apis
+CI/CD,DevOps,cicd|continuous integration|continuous deployment
+Matplotlib,Visualization,
+Plotly,Visualization,
